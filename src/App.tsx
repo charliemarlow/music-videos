@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
-import './App.css';
-import { Button, TextField } from '@material-ui/core';
+import React, { useState } from "react";
+import "./App.css";
+import { Button, TextField } from "@material-ui/core";
 
 function App(): JSX.Element {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [
-    isUsernamePasswordShowing,
-    setIsUsernamePasswordShowing,
-  ] = useState(false);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [isUsernamePasswordShowing, setIsUsernamePasswordShowing] = useState(
+    false
+  );
 
   return (
     <div className="App">
